@@ -3,7 +3,7 @@ import { Hero } from './components/Hero';
 import { Features } from './components/Features';
 import { Assessment } from './components/Assessment';
 
-function App() {
+export default function App() {
   const [showAssessment, setShowAssessment] = useState(false);
 
   return (
@@ -19,9 +19,9 @@ function App() {
         )}
       </main>
       
-      <footer className="bg-gray-50 mt-16">
-        <div className="mx-auto max-w-7xl px-4 py-12 sm:px-6 lg:px-8">
-          <p className="text-center text-sm text-gray-500">
+      <footer className="bg-rose-50">
+        <div className="max-w-5xl mx-auto px-4 py-12 sm:px-6 lg:px-8">
+          <p className="text-center text-sm text-gray-600">
             This website is for informational purposes only and is not a substitute for professional medical advice.
             If you're experiencing a mental health emergency, please contact your local emergency services or crisis hotline immediately.
           </p>
@@ -30,5 +30,3 @@ function App() {
     </div>
   );
 }
-
-export default App;
