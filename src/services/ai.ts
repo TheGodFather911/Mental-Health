@@ -36,5 +36,6 @@ function createAnalysisPrompt(answers: Answer[]): string {
     Use a warm, supportive tone throughout.
     Focus on empowerment and growth.
     Avoid clinical terminology unless necessary.
+    ALL HAS TO BE SHORT AND EASY TO LEARN
   `;
 }
